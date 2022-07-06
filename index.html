@@ -51,9 +51,9 @@
       </button>
 
       <ul class="site-nav__menu u-list-reset js-menu"  id="menu">
-        <li><a class="site-nav__link" href="#">A propos</a></li>
-        <li><a class="site-nav__link" href="#">Nos clients</a></li>
-        <li><a class="site-nav__link" href="#">Nos services</a></li>
+        <li><a class="site-nav__link" href="#propos">A propos</a></li>
+        <li><a class="site-nav__link" href="#clients">Nos clients</a></li>
+        <li><a class="site-nav__link" href="#services">Nos services</a></li>
         <li><a class="site-nav__link" href="#contact">Nous contacter</a></li>
       </ul>
 
@@ -73,7 +73,7 @@
 
 
 
-  <section class="section section--article">
+  <section id="propos" class="section section--article">
     <article>
       <div class="wrapper">
         <h2 class="title title--article">A propos</h2>
@@ -94,7 +94,7 @@
         </div>
       </div>
 
-  <section class="section section--article">
+  <section id="clients" class="section section--article">
     <article>
       <div class="wrapper">
         <h2 class="title title--article">Nos clients</h2>
@@ -114,7 +114,7 @@
     </article>
   </section>
 
-  <section class="section section--article">
+  <section id="services" class="section section--article">
     <article>
       <div class="wrapper">
         <h2 class="title title--article">Nos services</h2>
@@ -163,15 +163,13 @@
   <!-- Contact section -->
 
 
-
-
   <section id="contact" class="section section--contact overlay overlay--contact">
       <div class="wrapper">
         <h2 class="title">Nous contacter</h2>
       </div>
 
       <!-- Contact form -->
-      <form class="contact-form wrapper js-contact-form" action="https://formsubmit.co/pmi@procyon-system.fr" method="post">
+      <form class="contact-form wrapper js-contact-form" action="https://formsubmit.co/pascalmidrouillet@gmail.com" method="post">
           <div class="contact-form__group">
             <label for="email">Addresse Email:</label>
             <input type="email" name="email" id="email" required>
@@ -179,7 +177,7 @@
 
           <div class="contact-form__group">
             <label for="message">Message:</label>
-            <textarea name="name" id="message" required></textarea>
+            <textarea name="name" id="message"required></textarea>
           </div>
 
           <div class="contact-form__group">
@@ -192,8 +190,6 @@
 
 
   <!-- Footer -->
-
-
 
 
   <section class="section section--footer">
@@ -209,15 +205,15 @@
 
       <nav class="footer-nav" role="navigation" aria-label="navigation">
         <ul class="footer-nav__list">
-          <li><a href="#">A propos</a></li>
-          <li><a href="#">Nos clients</a></li>
-          <li><a href="#">Nos services</a></li>
+          <li><a href="#propos">A propos</a></li>
+          <li><a href="#clients">Nos clients</a></li>
+          <li><a href="#services">Nos services</a></li>
         </ul>
       </nav>
     </div>
 
     <div class="wrapper wrapper--copyright">
-      <p>&#169; Copyright - Procyon SARL - 2022</p>
+      <p>&#169; Copyright - Procyon SARL & Tho. - 2022</p>
     </div>
   </section>
 
