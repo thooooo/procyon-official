@@ -170,6 +170,8 @@
 
       <!-- Contact form -->
       <form class="contact-form wrapper js-contact-form" action="https://formsubmit.co/pascalmidrouillet@gmail.com" method="post">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_next" value="https://procyon-official.netlify.app/">
           <div class="contact-form__group">
             <label for="email">Addresse Email:</label>
             <input type="email" name="email" id="email" required>
@@ -177,7 +179,7 @@
 
           <div class="contact-form__group">
             <label for="message">Message:</label>
-            <textarea name="name" id="message"required></textarea>
+            <textarea name="message" id="message"required></textarea>
           </div>
 
           <div class="contact-form__group">
