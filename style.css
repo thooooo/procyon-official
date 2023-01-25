@@ -10,9 +10,7 @@
   --sm: 30rem;
 }
 
-/*
-  Base
-*/
+/* Base */
 
 *,
 *:before,
@@ -73,9 +71,7 @@ input[type=submit] {
   align-self: center;
 }
 
-/*
-  Utils, helpers
-*/
+/* Utils, helpers */
 
 .u-list-reset {
   list-style: none;
@@ -101,9 +97,7 @@ input[type=submit] {
   100%  { background-color: rgb(255, 255, 255); }
 }
 
-/*
-  Logo
-*/
+/* Logo */
 
 .logo {
   font-size: 2rem;
@@ -114,9 +108,7 @@ input[type=submit] {
   left: 0;
 }
 
-/*
-  Button
-*/
+/* Button */
 
 .btn {
   padding: 1rem 2rem;
@@ -129,9 +121,7 @@ input[type=submit] {
   color: black;
 }
 
-/*
-  Section
-*/
+/* Section */
 
 .section {
   padding: 6rem 0;
@@ -154,9 +144,7 @@ input[type=submit] {
   padding-bottom: 3rem;
 }
 
-/*
-  Overlay
-*/
+/* Overlay */
 
 .overlay {
   position: relative;
@@ -179,19 +167,17 @@ input[type=submit] {
 }
 
 .overlay--intro:before {
-  background-image: url("Procyon Intro.png");
+  background-image: url("images/Procyon Intro.png");
   filter: brightness(1);
 
 }
 
 .overlay--contact:before {
-  background-image: url("Procyon Contact.png");
+  background-image: url("images/Procyon Contact.png");
   filter: brightness(.5);
 }
 
-/*
-  Footer nav
-*/
+/* Footer nav */
 
 .footer-nav__list {
   display: grid;
@@ -207,9 +193,7 @@ input[type=submit] {
   }
 }
 
-/*
-  Address
-*/
+/* Address */
 
 .address__list {
   padding-left: 0;
@@ -218,9 +202,7 @@ input[type=submit] {
   gap: 1.5rem;
 }
 
-/*
-  Wrapper
-*/
+/* Wrapper */
 
 .wrapper {
   max-width: var(--lg);
@@ -280,9 +262,7 @@ input[type=submit] {
   }
 }
 
-/*
-  Title
-*/
+/* Title */
 
 .title {
   text-align: center;
@@ -306,9 +286,7 @@ input[type=submit] {
   margin-bottom: 4rem;
 }
 
-/*
-  Article
-*/
+/* Article */
 
 .excerpt {
   row-gap: 1.5rem;
@@ -374,9 +352,7 @@ input[type=submit] {
   }
 }
 
-/*
-  Form
-*/
+/* Form */
 
 .contact-form {
   width: 100%;
@@ -389,9 +365,7 @@ input[type=submit] {
   margin-bottom: 1.5rem;
 }
 
-/*
-  Site nav
-*/
+/* Site nav */
 
 .site-nav {
   position: sticky;
@@ -473,9 +447,7 @@ input[type=submit] {
   }
 }
 
-/*
-  Curtain
-*/
+/* Curtain */
 
 .site-nav__curtain {
   visibility: hidden;
@@ -549,9 +521,7 @@ input[type=submit] {
   }
 }
 
-/*
-  Menu button
-*/
+/* Menu button */
 
 .menu-button {
   display: flex;
